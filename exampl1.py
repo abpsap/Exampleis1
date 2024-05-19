@@ -9,3 +9,6 @@ msg = b'asjkhdkajsdh'
 hash_function = sha256(msg)
 print (hash_function.digest())
 
+bro = ["jack", "jill", "mohan", "guru"]
+brostr = ', '.join(bro)
+print (f"the joined brostr is {brostr}")
